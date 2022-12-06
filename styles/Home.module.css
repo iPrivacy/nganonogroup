@@ -1,0 +1,136 @@
+.cardContainer {
+  /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 15px;
+    grid-template-areas:
+      ". . ."; */
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sectionContainer {
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+
+}
+
+.image {
+  z-index: 100;
+  position: absolute;
+  display: block;
+  bottom: 0;
+}
+
+.sectionText {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  z-index: 100;
+}
+
+.roundedSection {
+  height: 35%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 6px;
+  border-radius: 0 0 100px 100px;
+}
+
+.mainText {
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.sectionButton {
+  width: 6rem;
+  background-color: whitesmoke;
+  border-radius: 100px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.sectionButton:hover {
+  background-color: #03a2be;
+}
+
+@media screen and (max-width:576px) {
+  .cardContainer{
+    flex-direction: column;
+  }
+  .sectionContainer {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .sectionText {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+
+  .mainText {
+    margin: 1rem 0rem;
+  }
+
+  .sectionButton {
+    margin: 1rem 0rem;
+  }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+  .cardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionContainer {
+    margin-top: 12rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionText {
+    width: 75%;
+    margin: 1rem 0rem;
+  }
+
+  .sectionButton {
+    margin: 1rem 0rem;
+  }
+
+  .roundedSection {
+    margin: 0rem 0rem 1rem 0rem;
+  }
+
+  .mainText {
+    margin: 1rem 0rem;
+  }
+
+  .imageWrapper {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+@media (min-width:769px) and (max-width:1200px){
+.sectionText{
+  justify-content: flex-start;
+}
+}
