@@ -10,6 +10,9 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
+    <Head>
+    <meta name="google-site-verification" content="HAasFiIWy0fp4SVR4TPs4STaRunXX6eCa2EjiKUvArw" />
+    </Head>
       <Carousal />
       <div className={styles.cardContainer}>
         <Card
