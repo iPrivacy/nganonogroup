@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Card from "../Components/Card";
 import CardTwo from "../Components/CardTwo";
 import Carousal from "../Components/Carousal";
@@ -85,7 +86,7 @@ export default function Home() {
               "Ex aliquip est cupidatat Lorem officia cillum.Sunt laborum qui
               exercitation id enim voluptate."
             </span>
-            <button className={styles.sectionButton}>more</button>
+            <Link href="/divisions"><button className={styles.sectionButton}>more</button></Link>
           </div>
         </div>
       </section>
