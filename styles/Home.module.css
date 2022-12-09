@@ -68,7 +68,11 @@
 .sectionButton:hover {
   background-color: #03a2be;
 }
-
+.servicesList{
+  list-style: disc;
+  text-transform: capitalize;
+  
+}
 @media screen and (max-width:576px) {
   .cardContainer{
     flex-direction: column;
