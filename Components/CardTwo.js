@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../Components/CardTwo.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CardTwo(props) {
   return (
@@ -12,7 +13,7 @@ export default function CardTwo(props) {
         <h1>{props.title}</h1>
         <p>{props.cardText}</p>
       </div>
-      <button className={style.button}>Read More</button>
+      <Link href="/investments"><button className={style.button}>Read More</button></Link>
     </div>
   );
 }
