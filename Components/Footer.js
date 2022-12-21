@@ -12,7 +12,7 @@ export default function Footer() {
         <PartnerIconCard partnerImage="/DellEmc.png" />
         <PartnerIconCard partnerImage="/IBM.png" />
         <PartnerIconCard partnerImage="/DLink.png" />
-        <PartnerIconCard partnerImage="/Logitech.png" />
+        <PartnerIconCard partnerImage="/HPLOGO.png" />
       </div>
       <address>1476 Kamagugu, Nelspruit 1200</address>
       <span>Tel: +27 69 238 0983 Cell: +27 71 404 2684 </span>

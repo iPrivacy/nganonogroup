@@ -170,3 +170,9 @@
         padding-left: 2rem;
     }
 }
+
+@media (min-width:769px) and (max-width:1024px){
+    .container{
+        width: 97vw;
+    }
+}

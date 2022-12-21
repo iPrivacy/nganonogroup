@@ -5,7 +5,7 @@ import Image from "next/image";
 const links = [
   { name: "Home", linkTo: "/" },
   { name: "About us", linkTo: "/about" },
-  { name: "Divisions", linkTo: "/divisions" },
+  { name: "CEO's Corner", linkTo: "/divisions" },
   { name: "Investments", linkTo: "/investments" },
   { name: "Contact us", linkTo: "/contact" },
 ];
