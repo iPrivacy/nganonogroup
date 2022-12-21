@@ -6,7 +6,7 @@ export default function Divisions() {
   return (
     <section className={style.divContainer}>
       <div className={style.imageWrapper}>
-        <Image src="/nganonoGroupLogo.png" layout="fill" />
+        <Image src="/CEO.jpg" layout="fill" />
       </div>
       <div className={style.textContainer}>
         <p>
